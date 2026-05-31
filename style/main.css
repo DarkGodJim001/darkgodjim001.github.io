@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "unifont";
+  src: url("../resource/unifont-16.0.03.otf") format("opentype");
+}
+p {
+  font-family: "unifont";
+}
+a {
+  font-family: "unifont";
+}
+
 body {
   background: linear-gradient(135deg,#2125f6,#6111c7,#9906a8,#f6037d);
   background-size: 400% 400%;
