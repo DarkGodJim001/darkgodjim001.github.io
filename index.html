@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DarkGodJim's Web Page</title>
+        <link rel="icon" type="image/png" href="https://vzge.me/face/DarkGodJim001.png">
+        <style>
+            body {
+                background: linear-gradient(135deg,#303030,#404040,#505051,#606067);
+                background-size: 400% 400%;
+                min-height: 100vh;
+                margin:0;
+                padding: 0;
+                animation: bg 8s ease infinite;
+            }
+            @keyframes bg {
+                0%{
+                    background-position: 0% 50%;
+                }
+                25%{
+                    background-position: 100% 30%;
+                }
+                50%{
+                    background-position: 50% 100%;
+                }
+                75%{
+                    background-position: 0% 70%;
+                }
+                100%{
+                    background-position: 0% 50%;
+                }
+            }
+            #title_box {
+                position:relative;
+                background:#303030;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
+            #title_{
+                text-align: center;
+                font-size: 50px;
+                color:azure;
+                margin: 0;
+            }
+            #title_image {
+                text-align: center;
+                display:grid;
+                place-items: center;
+            }
+            #title_img {
+                vertical-align: middle;
+                transform: scale(1.0);
+            }
+            a:link {
+                display: inline-block;
+                transition: transform 0.35s ease;
+                color:azure;
+                text-decoration: none;
+            }
+            a:visited {
+                display: inline-block;
+                transition: transform 0.35s ease;
+                color:beige;
+            } 
+            a:hover {
+                display: inline-block;
+                transition: transform 0.35s ease;
+                color:aqua;
+                text-decoration:double;
+                transform: scale(1.05);
+            }
+            a:active {
+                display: inline-block;
+                transition: transform 0.35s ease;
+                color:blue;
+                transform: scale(1.35);
+            }
+            #main {
+                display: flex;
+                justify-content: center;
+                padding: 40px 20px;
+            }
+            #dl_list {
+                list-style: none;
+                padding: 0;
+            }
+            #dl_list li {
+                margin: 15px 0;
+            }
+            #TML-dl {
+                display: inline-block;
+                padding: 12px 24px;
+                background: rgba(48,48,48,0.8);
+                border-radius: 8px;
+                font-size: 18px;
+            }
+            .dl_div {
+                background: #363636;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="title_box">
+            <img src="https://vzge.me/face/DarkGodJim001.png" alt="My face image" width="64" height="64" id="title_img">
+            <p id="title_">DarkGodJim001官网</p>
+        </div>
+        <div id="main">
+            <div id="download">
+                <ul id="dl_list">
+
+                    <div class="dl_div" id="TML">
+                        <a id="TML-dl" href="https://darkgodjim001.github.io/darkgodjim001/download/Terminal Minecraft Launcher.exe">TML我的世界启动器</a>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
