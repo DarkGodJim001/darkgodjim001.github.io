@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(135deg,#2125f6,#6111c7,#9906a8,#f6037d);
+  background-size: 400% 400%;
+  min-height: 100vh;
+  margin:0;
+  padding: 0;
+  animation: bg 8s ease infinite;
+}
+@keyframes bg {
+  0%{
+    background-position: 0% 50%;
+  }
+  25%{
+    background-position: 100% 30%;
+  }
+  50%{
+    background-position: 50% 100%;
+  }
+  75%{
+    background-position: 0% 70%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+#title_box {
+  position:relative;
+  background:#303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+#title_{
+  text-align: center;
+  font-size: 50px;
+  color:azure;
+  margin: 0;
+}
+#title_image {
+  text-align: center;
+  display:grid;
+  place-items: center;
+}
+#title_img {
+  vertical-align: middle;
+  transform: scale(1.0);
+}
+.dl_buttom:link {
+  display: inline-block;
+  transition: transform 0.35s ease;
+  color:azure;
+  text-decoration: none;
+}
+.dl_buttom:visited {
+  display: inline-block;
+  transition: transform 0.35s ease;
+  color:beige;
+} 
+.dl_buttom:hover {
+  display: inline-block;
+  transition: transform 0.35s ease;
+  color:aqua;
+  text-decoration:double;
+  transform: scale(1.05);
+}
+.dl_buttom:active {
+  display: inline-block;
+  transition: transform 0.35s ease;
+  color:blue;
+  transform: scale(1.35);
+}
+#main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+#dl_list {
+  list-style: none;
+  padding: 0;
+}
+#dl_list li {
+  margin: 15px 0;
+}
+#TML-dl {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgba(48,48,48,0.8);
+  border-radius: 8px;
+  font-size: 18px;
+}
+.dl_div {
+  background: #363636;
+}
+#download {
+    background:linear-gradient(0deg,#f6037d,#9906a8,#6111c7,#2125f6);
+    border-radius: 10px;
+}
