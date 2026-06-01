@@ -4,11 +4,13 @@
         <title>DarkGodJim's Web Page</title>
         <link rel="icon" type="image/png" href="https://vzge.me/face/DarkGodJim001.png">
         <link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/profile.css">
         <script src="./js/textwriter.js"> </script>
+        <script src="./js/clickAvatar.js"></script>
     </head>
     <body>
         <div id="title_box">
-            <img src="https://vzge.me/face/DarkGodJim001.png" alt="My face image" width="64" height="64" id="title_img" onclick="tw()">
+            <img src="https://vzge.me/face/DarkGodJim001.png" alt="My face image" width="64" height="64" id="title_img" onclick="OnClickAvatarEvent()">
             <p id="title_"></p>
         </div>
         <div id="main">
@@ -28,7 +30,7 @@
                     <li>
                         <div class="dl_div" id="EFTC">
                             <a id="EFTC-dl" class="dl_buttom" href="https://shequ.codemao.cn/work/317739220">EFTC逃离古堡</a>
-                            <p class="dl_content">这是一款使用kn(图形化)制作的跑酷类游戏（离线版<a href="./download/逃离古城堡.exe">下载</a>）</p>
+                            <p class="dl_content">这是一款使用kn(图形化)制作的跑酷类游戏</p>
                         </div>
                     </li>
 
@@ -49,6 +51,37 @@
 
                 </ul>
             </div>
+
+            <div id="profile">
+                <div id="profile-text">
+                    <p id="profile-title">我的档案</p>
+                </div>
+                <ul id="dl_list">
+
+                    <li>
+                        <a class="profile-link" href="https://www.xiaohongshu.com/user/profile/6747f4ee0000000008009aac">小红书</a>
+                        
+                    </li>
+
+                    <li>
+                        <a class="profile-link" href="https://space.bilibili.com/3546736920365309?spm_id_from=333.1007.0.0">BiliBili</a>
+                    </li>
+
+                    <li>
+                        <a class="profile-link" href="https://blog.csdn.net/2401_84221942?spm=1000.2115.3001.5343">CSDN开发者社区</a>
+                    </li>
+
+                    <li>
+                        <p class="profile-text">QQ:3678869403</a>
+                    </li>
+
+                    <li>
+                        <p class="profile-text">邮箱:yyj201418@qq.com</a>
+                    </li>
+
+                </ul>
+            </div>
+            <hr>
         </div>
     </body>
 </html>

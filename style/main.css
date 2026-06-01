@@ -94,6 +94,9 @@ body {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
 }
 #dl_list {
   list-style: none;
@@ -158,3 +161,10 @@ body {
 .dl_content {
     color:white !important;
 }
+
+hr {
+  margin:20px 0;
+  border:1px solid #222;
+  background-color: #222;
+}
+
